@@ -3,10 +3,10 @@ Calculates a complex date like 3rd wednesday of November
 Returns a Javascript Date Object.
 
 ##PARAMETERS
-dayOfWeek (1 = Monday, 2 = Tuesday, ... ,7 = Sunday)
-iterator (1 = First, 2 = Second, 3 = Third )
-month (1 = January, 2 = February, ... , 12 = December)
-year - the year you want to calculate from (optional, if null, defaults to current year)
+* dayOfWeek (1 = Monday, 2 = Tuesday, ... ,7 = Sunday)
+* iterator (1 = First, 2 = Second, 3 = Third )
+* month (1 = January, 2 = February, ... , 12 = December)
+* year - the year you want to calculate from (optional, if null, defaults to current year)
 
 ##Example Usage:
 * Calculate the Labour Day (First Monday of September) = complexDateCalculator(1, 1, 9, 2015)
